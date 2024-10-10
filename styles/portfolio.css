@@ -1,0 +1,22 @@
+/* design of navbar */
+
+
+
+nav{
+    display: flex;
+}
+
+
+body{
+    font-family: "Open Sans", serif;
+}
+
+.primary-text{
+    color: rgb(185, 129, 236);
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
