@@ -28,7 +28,7 @@ nav{
     color: white;
     font-weight: 600;
     font-size: larger;
-    padding: ;
+    padding:10px 20px;
     border-radius: 5px;
     background-color: rgb(206, 68, 224);
     border: 0;
@@ -50,5 +50,17 @@ nav a:hover{
 nav a{
     text-decoration: none;
     color: #474747;
+
+}
+
+
+.header{
+    background-color: rgb(246, 231, 248);
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
 
 }
