@@ -1,22 +1,54 @@
 /* design of navbar */
 
-
-
+*{
+    font-family: "Open Sans", sans-serif;
+}
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
-body{
-    font-family: "Open Sans", serif;
-}
-
-.primary-text{
-    color: rgb(185, 129, 236);
-}
 
 .nav-title{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+
+.nav-title span{
+    color: rgb(206, 68, 224);
+
+}
+.primary-text{
+    color: wheat;
+}
+.btn-primary{
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+    padding: ;
+    border-radius: 5px;
+    background-color: rgb(206, 68, 224);
+    border: 0;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;;
+}
+nav a:hover{
+    color: rgb(96, 204, 111);
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+
 }
